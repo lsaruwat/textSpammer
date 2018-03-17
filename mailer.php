@@ -7,4 +7,5 @@ $msg = wordwrap($msg,70);
 
 // send email
 var_dump( mail("19702703575@mms.att.net","My subject",$msg) );
+var_dump( mail("19702703575@txt.att.net","My subject",$msg) );
 ?>
